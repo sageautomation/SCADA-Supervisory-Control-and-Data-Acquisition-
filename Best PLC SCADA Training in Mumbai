@@ -1,0 +1,23 @@
+				                                            	PLC and SCADA 
+Introduction  :
+The basic elements of a PLC include input modules or points, a Central Processing Unit (CPU), output modules or points, and a programming device.
+Initially industries used relays to control the manufacturing processes. The relay control panels had to be regularly replaced, consumed lot of power and it was difficult to figure out the problems associated with it. To sort these issues, Programmable logic controller (PLC) was introduced.
+PLC :
+Programmable Logic Controller (PLC) is a digital computer used for the automation of various electro-mechanical processes in industries. These controllers are specially designed to survive in harsh situations and shielded from heat, cold, dust, and moisture etc. PLC consists of a microprocessor which is programmed using the computer language.
+
+PLC Hardware :
+The hardware components of a PLC system are CPU, Memory, Input /Output, Power supply unit, and programming device. Below is a diagram of the system overview of PLC.
+ 
+•	CPU – Keeps checking the PLC controller to avoid errors. They perform functions including logic operations, arithmetic operations, computer interface and many more. 
+•	Memory – Fixed data is used by the CPU. System (ROM) stores the data permanently for the operating system. RAM stores the information of the status of input and output devices, and the values of timers, counters and other internal devices. 
+•	I/O section – Input keeps a track on field devices which includes sensors, switches. 
+•	O/P Section - Output has a control over the other devices which includes motors, pumps, lights and solenoids. The I/O ports are based on Reduced Instruction Set Computer (RISC). 
+•	Power supply – Certain PLCs have an isolated power supply. But, most of the PLCs work at 220VAC or 24VDC.
+•	Programming device – This device is used to feed the program into the memory of the processor. The program is first fed to the programming device and later it is transmitted to the PLC’s memory. 
+
+SCADA
+Introduction :
+SCADA stands for supervisory control and data acquisition. It is a type of software application program for process control.  SCADA is a central control system which consist of controllers network interfaces, input/output, communication equipments and software. SCADA systems are used to monitor and control the equipments in the industrial process which include manufacturing, production, development and fabrication. The infrastructural processes include gas and oil distribution, electrical power, water distribution.  Public utilities include bus traffic system, airport.  The SCADA system takes the reading of the meters and checks the status of sensors in regular interval so that it requires minimal interference of human.
+ 
+Architecture :
+Generally SCADA system is a centralized system which monitors and controls entire area. It is purely software package that is positioned on top of hardware. A supervisory system gathers data on the process and sends the commands control to the process. The SCADA is a remote terminal unit which is also known as RTU. Most control actions are automatically performed by RTUs or PLCs. The RTUs consist of programmable logic converter which can be set to specific requirement. For example, in the thermal power plant the water flow can be set to specific value or it can be changed according to the requirement.
